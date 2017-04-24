@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="facts about sleep">
+    <meta name="author" content="Jennifer Liang">
+
+    <title>Sleep</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS for the 'One Page Wonder' Template -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand logo-nav" href="file:///C:/Users/Jen/Documents/Sleep/index.html#">
+            <img src="sleepdog.jpg"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Let's Talk!</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="header-image">
+
+    <!-- <div class="header-image"><img src="jellyfish.jpg"> -->
+      <div class="headline">
+        <div class="container">
+          <h2>IF YOU DON'T SNOOZE</h2>
+          <h1>YOU LOSE</h1>
+        </div>
+      </div>
+
+    </div><!-- /header-image -->
+
+    <div class="container">
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="featurette" id="about">
+        <img class="featurette-image img-circle img-responsive pull-right" src="fries.jpg">
+        <h2 class="featurette-heading">So... <span class="text-muted">What exactly will you lose?</span></h2>
+        <p class="lead">See those tasty looking carne asada fries? In order to properly digest high calorie foods such as these, our bodies' metabolism must be regulated. However, sleep deprivation not only inhibits our metabolism, but it also messes with our ability to regulate body temperature and emotions. Getting less than the required number of hours of sleep can increase risk of illness due to decreased function of the immune system, and also increases chances of cancer, diabetes, and obesity. In a study involving sleep deprivation in rats, it was found that the longer the rats stayed awake, the more they ate. Despite the increased food intake however, they rapidly lost weight due to loss of thermoregulation and metabolic regulation, and eventually died of septicemia. These results demonstrate the potentially fatal effects of sleep deprivation. So to answer the original question, sleep deprivation will cause deterioration of multiple aspects of your health, and ultimately can cause you to lose your life. </p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette" id="services">
+        <img class="featurette-image img-circle img-responsive pull-left" src="flower.jpg">
+        <h2 class="featurette-heading">What are some immediately visible benefits <span class="text-muted">of snoozing?</span></h2>
+        <p class="lead">We've all seen people who radiate beauty as brilliantly as this flower. But did you know that sleep can have a significant and immediate impact on appearance? In a study done in 2010, the validity of the term "beauty sleep" was tested and verified. Healthy young participants were separated into two groups. The first group received 8 hours of normal sleep, while the second group endured an entire night of total sleep deprivation. Both groups of participants were then rated on appearance of tiredness, health, and attractiveness. According to independent observers, the second group who was sleep deprived appeared significantly more tired, less healthy, and less attractive. So next time you're thinking about pulling an all-nighter, remember the potential effects it will have on your appearance the next day!</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette" id="contact">
+        <img class="featurette-image img-circle img-responsive pull-right" src="waves.jpg">
+        <h2 class="featurette-heading">Rather than just snoozing, we instead need <span class="text-muted">all stages of sleep.</span></h2>
+        <p class="lead">We've discussed a bit about the health effects of sleep deprivation, but another important aspect that heavily affects everyday life is the negative impact on memory. Just like there are multiple layers of rock on that beach, our sleep also has multiple layers, or stages, and each stage has a different impact on our memory. Sleep is divided into two main categories: REM, or Rapid Eye Movement sleep, and non-REM (NREM). During REM sleep, as indicated by the name, our eyes move rapidly from side to side. This stage of sleep is associated with dreams, and higher frequency brain waves (ha get it, waves on the beach) that are very similar to the brain waves of someone who is awake. Because of dreams in this stage, our bodies also experience REM sleep paralysis and muscle atonia. In other words, we're not able to move during this stage, otherwise we would always be acting out our dreams and potentially injuring ourselves or others. According to multiple studies, lack of REM sleep can have negative effects on visual skills and our ability to identify predictive and associative patterns across everything we encounter in life.</p>
+        <p class="lead">The other type of sleep, non-REM, involves 4 different stages, named Stage 1-4. The last two, stages 3 and 4, are known as slow-wave sleep (SWS) and are characterized by brain waves of very low frequency and high amplitude, and no eye movements. SWS has been found to have an impact on visual skills and declarative memory consolidation, or our ability to memorize facts. Lastly, stage 2 sleep is characterized by a phenomenon called sleep spindles, which are responsible for refreshing our brains each night to enable new learning the next day.</p>
+      </div>
+
+       <hr class="featurette-divider">
+
+      <div class="featurette" id="contact">
+        <h2 class="featurette-heading">How much sleep are you getting compared to <span class="text-muted">how much you actually need?</span></h2>
+        <p class="lead">Studies show that people need at least 8 hours of sleep a night, and preferably 9 hours is ideal. This is true even for older adults, who tend to sleep less as they age even though they still need just as much sleep. Try sliding the bar below to the average number of hours of sleep you get each night, input the number you think you need (make it negative), and see how many hours of sleep you have over or under the required amount!</p>
+        <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+          <input type="range" id="a" value="8">100
+          +<input type="number" id="b" value="8">
+          =<output name="x" for="a b"></output>
+        </form>
+      </div>
+
+      <!-- /END THE FEATURETTES -->
+
+      <hr>
+
+    </div><!-- /container -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+  </body>
+
+</html>
